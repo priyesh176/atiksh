@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+}
+
+.App-header {
+    text-align: center;
+    padding: 50px 0;
+    background: url('../public/photo1.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#gallery .carousel .slide img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#location .map-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #e65c50;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ff6f61;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
